@@ -56,14 +56,12 @@ const config = {
             position: 'left',
             label: 'Docs',
           },
-          /**
           {
             type: 'doc',
             docId: 'dev-docs',
             position: 'left',
             label: 'Development',
           },
-     */
           {
             href: 'https://github.com/approvers/OreOreBot2',
             label: 'GitHub',
