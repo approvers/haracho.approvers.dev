@@ -12,7 +12,18 @@
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "typecheck": "tsc"
+    "typecheck": "tsc --nolimt",
+    "fix": "yarn format && yarn eslint:fix",
+    "check": "prettier --check \"./**/*.{ts,tsx,js,md,mdx}\"",
+    "format": "prettier --write \"./**/*.{ts,tsx,js,md,mdx}\"",
+    "eslint": "eslint \"./**/*.{ts,tsx,js,md,mdx}\"",
+    "eslint:fix": "eslint \"./**/*.{ts,tsx,js,md,mdx}\" --fix",
+    "lint-staged": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{ts,tsx,md}": [
+      "yarn fix"
+    ]
   },
   "dependencies": {
     "@docusaurus/core": "2.2.0",
@@ -26,6 +37,16 @@
   "devDependencies": {
     "@docusaurus/module-type-aliases": "2.2.0",
     "@tsconfig/docusaurus": "^1.0.5",
+    "@types/react": "^18.0.26",
+    "@typescript-eslint/eslint-plugin": "^5.48.1",
+    "@typescript-eslint/parser": "^5.48.1",
+    "eslint": "^8.31.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-markdown": "^3.0.0",
+    "eslint-plugin-react": "^7.32.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.0",
+    "prettier": "^2.8.3",
     "typescript": "^4.7.4"
   },
   "browserslist": {
