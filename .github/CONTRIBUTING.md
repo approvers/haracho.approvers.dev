@@ -21,6 +21,15 @@ git push
 5. 開発が終了したら GitHub から当リポジトリの `main` ブランチへ新規 pull request を作成してください。
 6. 当プロジェクト コントリビューターによるレビュー・GitHub Actions によるテストなどが行われた後、マージが可能になります。
 
+## ドキュメント・開発ガイドに寄稿する
+
+- ドキュメント等は `docs` ディレクトリに格納されています。
+  - ドキュメントは `docs/intro.mdx`, `docs/guide`
+  - 開発ガイドは `docs/dev-guide` に格納されています。
+- ドキュメントはすべて `.mdx` ([MDX](https://mdxjs.com/)) 形式で記述されています。
+  - 詳しい記法は [MDX の Guides](https://mdxjs.com/guides/) を参照してください。
+- Docusaurus の独自記法については [Docusaurus Markdown Features](https://docusaurus.io/docs/markdown-features) を参照してください。
+
 ## コミットメッセージ
 
 コミットメッセージを書く際は [**Conventional Commit**](https://conventionalcommits.org/ja/) に従ってください。
