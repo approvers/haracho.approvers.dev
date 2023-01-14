@@ -21,7 +21,7 @@
     "lint-staged": "lint-staged"
   },
   "lint-staged": {
-    "*.{ts,tsx,md}": [
+    "*.{js,ts,tsx,md}": [
       "yarn fix"
     ]
   },
