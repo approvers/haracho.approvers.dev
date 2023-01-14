@@ -15,5 +15,7 @@ module.exports = {
         'dev_docs/running/docker-useCompose',
       ],
     },
+    'dev_docs/emoji-seq',
+    'dev_docs/meme',
   ],
 };
