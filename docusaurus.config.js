@@ -31,7 +31,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/approvers/haracho.approvers.dev/tree/main/docs',
+          editUrl: 'https://github.com/approvers/haracho.approvers.dev/tree/main',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
