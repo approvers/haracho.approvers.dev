@@ -6,7 +6,7 @@ import Layout from '@theme/Layout';
 
 import styles from '../css/index.module.css';
 
-const buttonInput = "button button--outline button--primary"
+const buttonInput = 'button button--outline button--primary';
 
 function HomepageHeader() {
   return (
@@ -28,11 +28,9 @@ function HomepageHeader() {
 }
 
 export default function Home(): JSX.Element {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout
-      title={siteConfig.title}
-      description={siteConfig.tagline}>
+    <Layout title={siteConfig.title} description={siteConfig.tagline}>
       <HomepageHeader />
     </Layout>
   );

@@ -1,6 +1,9 @@
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-nocheck
 
+// eslint-disable-next-line @typescript-eslint/no-var-requires
 const lightCodeTheme = require('prism-react-renderer/themes/github');
+// eslint-disable-next-line @typescript-eslint/no-var-requires
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
@@ -28,8 +31,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl:
-            'https://github.com/approvers/haracho.approvers.dev/tree/main/docs',
+          editUrl: 'https://github.com/approvers/haracho.approvers.dev/tree/main/docs',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -54,7 +56,7 @@ const config = {
             position: 'left',
             label: 'Docs',
           },
-    /**
+          /**
           {
             type: 'doc',
             docId: 'dev-docs',
