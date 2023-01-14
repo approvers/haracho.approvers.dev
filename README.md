@@ -1,41 +1,22 @@
-# Website
+# hatacho.approvers.dev
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+[新生はらちょ(approvers/OreOreBot2)](https://github.com/approvers/OreOreBot2) のドキュメントサイト
 
-### Installation
+[Docusaurus(v2)](https://docusaurus.io/) を使用し、デプロイは [Cloudflare Pages](https://pages.cloudflare.com/) で行っています。
 
-```
-$ yarn
-```
+- `yarn dev` で開発サーバーを立ち上げます。ページ等が更新されるたびに自動でビルドし更新します。
+- `yarn build` でサイトをビルドします。
 
-### Local Development
+## 貢献
 
-```
-$ yarn start
-```
+このプロジェクトに対して貢献する前に **[haracho.approvers.dev への貢献](.github/CONTRIBUTING.md)** をお読みください。
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+## リンク
 
-### Build
+- [Docusaurus Markdown Features](https://docusaurus.io/docs/markdown-features)
 
-```
-$ yarn build
-```
+---
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+このサイトを作るに至って [frouriojs/frourio.com](https://github.com/frouriojs/frourio.com/blob/master/docusaurus.config.js) を参考にさせていただきました。
 
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+[frouriojs](https://github.com/frouriojs) に感謝の意を表します。
