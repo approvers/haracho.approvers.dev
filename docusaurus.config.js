@@ -51,14 +51,14 @@ const config = {
         },
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
+            type: 'docSidebar',
+            sidebarId: 'docs',
             position: 'left',
             label: 'Docs',
           },
           {
-            type: 'doc',
-            docId: 'dev-docs',
+            type: 'docSidebar',
+            sidebarId: 'dev_docs',
             position: 'left',
             label: 'Development',
           },
