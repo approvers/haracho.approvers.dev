@@ -22,8 +22,8 @@
   justify-content: center;
 }
 
-.goToPage {
-  display: flex;
-  align-items: center;
-  justify-content:space-around;
+.buttonsItem {
+  margin-top: auto;
+  margin-right: 20px;
+  margin-left: 15px;
 }
