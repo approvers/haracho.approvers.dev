@@ -14,7 +14,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'assets/haracho-transmission.png',
 
   organizationName: 'approvers',
   projectName: 'OreOreBot2',
@@ -46,8 +46,8 @@ const config = {
       navbar: {
         title: 'OreOreBot2 Documents',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'はらちょアイコン',
+          src: 'assets/haracho-transmission.png',
         },
         items: [
           {
