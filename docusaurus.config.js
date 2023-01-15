@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'OreOreBot2　Documents',
+  title: 'OreOreBot2 Documents',
   tagline: '限界開発鯖民が愛するDiscord Bot',
   url: 'https://haracho.approvers.dev',
   baseUrl: '/',

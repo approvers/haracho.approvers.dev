@@ -12,8 +12,8 @@ function HomepageHeader() {
   return (
     <header className={clsx('', styles.heroBanner)}>
       <div className="container">
-        <h1 className="hero__title">OreOreBot2</h1>
-        <p className="hero__subtitle">{useDocusaurusContext().siteConfig.tagline}</p>
+        <h1 className="hero__title">OreOreBot2 Documents</h1>
+        <p className="hero__subtitle">限界開発鯖民が愛するDiscord Bot</p>
         <div className={styles.buttons}>
           <Link className={clsx(buttonInput, styles.buttonsItem)} to="/docs/intro">
             ドキュメント
