@@ -108,7 +108,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} approvers, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} approvers`,
       },
       prism: {
         theme: lightCodeTheme,
