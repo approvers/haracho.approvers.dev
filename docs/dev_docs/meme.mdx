@@ -75,3 +75,76 @@ export const n: MemeTemplate<never, never> = {
 引数で変わるところを `〜` で表現するとわかりやすいです。
 
 :::
+
+#### `MemeTemplate.flagsKeys`
+
+ミームのフラグを定義します。
+
+```ts title="src/service/command/meme/takopi.ts"
+const takopiFlags = ['f'] as const;
+const takopiOptions = ['c'] as const;
+
+export const takopi: MemeTemplate<
+  typeof takopiFlags[number],
+  typeof takopiOptions[number]
+> = {
+  commandNames: ['takopi'],
+  description:
+    '「〜、出して」\n`-f` で教員と自分の名前の位置を反対にします。\n`-c <教員の名前> <出すもの>`で教員の名前も変更可能です。',
+  flagsKeys: takopiFlags,
+```
+
+#### `MemeTemplate.optionsKeys`
+
+ミームのオプションを定義します。
+
+```ts title="src/service/command/meme/takopi.ts"
+const takopiFlags = ['f'] as const;
+const takopiOptions = ['c'] as const;
+
+export const takopi: MemeTemplate<
+  typeof takopiFlags[number],
+  typeof takopiOptions[number]
+> = {
+  commandNames: ['takopi'],
+  description:
+    '「〜、出して」\n`-f` で教員と自分の名前の位置を反対にします。\n`-c <教員の名前> <出すもの>`で教員の名前も変更可能です。',
+  flagsKeys: takopiFlags,
+  optionsKeys: takopiOptions,
+```
+
+#### `MemeTemplate.errorMessage`
+
+引数不足時のエラーメッセージを定義します。
+
+```ts title="src/service/command/meme/n.ts"
+export const n: MemeTemplate<never, never> = {
+  commandNames: ['n'],
+  description: '〜Nった',
+  flagsKeys: [],
+  optionsKeys: [],
+  errorMessage: 'このままだと <@521958252280545280> みたいに留年しちゃう....',
+```
+
+### ミームを登録する
+
+ミームの処理を書いたら `src/service/command/meme/index.ts` に登録します。
+
+```ts title="src/service/command/meme/index.ts"
+export const memes = [
+  dousurya,
+  hukueki,
+  lolicon,
+  n,
+  takopi,
+  nigetane,
+  web3,
+  moeta,
+  kenjou,
+  koume,
+  ojaru,
+  nine
+];
+```
+
+変数 `meme` にミームを書きエクスポートすることで登録が完了します。

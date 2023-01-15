@@ -55,33 +55,3 @@ EmojiSeq の設定ファイルは [`assets/`](https://github.com/approvers/OreOr
 この `<:絵文字名:絵文字ID>` の形式は Discord クライアントから取得できます。
 
 ![絵文字の先頭にバックスラッシュを加え送信します。](../../static/images/gif/emoji-id.gif)
-
-## プッシュする
-
-編集したらブランチを新しく `main` から派生させてチェックアウトし、コミット＆プッシュを行いましょう。
-
-```shell
-git checkout -b new-emoji-seq-pattern
-git add .
-git push
-```
-
-## プルリクエストを作成する
-
-GitHub にアクセスし、プルリクエストを作成します。
-
-[プルリクエストを作成する](https://docs.github.com/ja/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
-
-## レビューを待つ
-
-プルリクエストが提出されたら、コントリビューターたちによってレビューされます。
-
-レビューが完了したら、プルリクエストはマージされます。
-
-:::tip
-
-OreOreBot2 は即時デプロイではないため、マージ後リリースが行われるまでは本番環境には降りてきません。
-
-リリースが行われ次第 Bot が再起動され、新しい設定が反映されます。
-
-:::
