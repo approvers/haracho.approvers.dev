@@ -131,6 +131,3 @@ dist
 .pnp.*
 
 build/
-
-# FIXME: mdx に対応する
-*.mdx
