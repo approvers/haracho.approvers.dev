@@ -1,7 +1,29 @@
 // @ts-check
 
 module.exports = {
-  docs: ['intro'],
+  docs: [
+    'intro',
+    {
+      type: 'category',
+      label: 'Commands',
+      collapsed: false,
+      link: { type: 'doc', id: 'command_docs/index' },
+      items: [
+        {
+          音楽機能: [
+            'command_docs/voice-channel/party',
+            'command_docs/voice-channel/kaere',
+            'command_docs/voice-channel/colk',
+          ],
+        },
+        {
+          ミーム: ['command_docs/meme/index', 'command_docs/meme/dousurya'],
+        },
+        'command_docs/typo',
+        'command_docs/HOJS',
+      ],
+    },
+  ],
   dev_docs: [
     'dev_docs/index',
     {

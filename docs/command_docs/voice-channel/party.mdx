@@ -1,0 +1,71 @@
+import Link from '@docusaurus/Link';
+
+# Party 一葉
+
+<span class="badge badge--success">v1.0.0</span> <Link
+  className="badge badge--warning"
+  to="/docs/dev_docs/running"
+>
+  ffmpeg必須機能
+</Link>
+
+---
+
+あなたのボイスチャンネルをパーティー会場に！
+
+VC 内の人類に押しかけて Party を開くよ。
+
+:::tip
+
+実行者がボイスチャンネルにいないとこのコマンドは安全装置によって封じ込められます。
+
+予約機能についても同様で、実行時間にボイスチャンネルにいないと実行されません。
+
+:::
+
+### `!party`
+
+パーティーをすぐに始めます。
+
+### `!party status`
+
+[ゲリラモード](#ゲリラモード)の設定状況を表示します。
+
+### `!party set <id>`
+
+指定した ID の BGM に設定します。
+
+利用可能な BGM は[はらちょが提供する BGM](#はらちょが提供する-bgm)を確認してください。
+
+### `!party enable`
+
+[ゲリラモード](#ゲリラモード)を有効にします。
+
+### `!party disable`
+
+[ゲリラモード](#ゲリラモード)を無効にします。
+
+### `!party time [時間]`
+
+[ゲリラモード](#ゲリラモード)の実行時間を設定します。
+
+実行時間は分単位で指定します。毎時間その時間にゲリラを実行します。
+
+例: `!party time 30` で 30 分毎にゲリラを実行します。
+
+### ゲリラモード
+
+ゲリラモードは、ボイスチャンネルにいる人間に**不意打ちで**押しかけてパーティーを開く機能です。
+
+ゲリラを行う時間は `!party time` で設定することが出来ます。設定していない場合はランダムな時間に実行されます。
+
+### はらちょが提供する BGM
+
+はらちょが提供する BGM は以下の通りです。
+
+| ID                                                               | 元ネタ                                                                |
+| ---------------------------------------------------------------- | --------------------------------------------------------------------- |
+| COFFIN_INTRO                                                     | [Coffin Dance](https://www.youtube.com/watch?v=j9V78UbdzWI)           |
+| COFFIN_DROP                                                      | [Coffin Dance](https://www.youtube.com/watch?v=j9V78UbdzWI)           |
+| KAKAPO                                                           | 不明                                                                  |
+| KAKUSIN_DAISUKE <span class="badge badge--success">v1.9.0</span> | [LeaF - Twitter](https://twitter.com/7eaF/status/1509153813235892229) |
