@@ -63,6 +63,12 @@ const config = {
             label: 'Development',
           },
           {
+            type: 'doc',
+            docId: 'faq/index',
+            position: 'left',
+            label: 'Q&A',
+          },
+          {
             href: 'https://github.com/approvers/OreOreBot2',
             label: 'GitHub',
             position: 'right',
