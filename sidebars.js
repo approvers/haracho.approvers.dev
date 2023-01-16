@@ -5,22 +5,22 @@ module.exports = {
     'intro',
     {
       type: 'category',
-      label: 'Commands',
+      label: 'commands',
       collapsed: false,
-      link: { type: 'doc', id: 'command_docs/index' },
+      link: { type: 'doc', id: 'commands_docs/index' },
       items: [
         {
           音楽機能: [
-            'command_docs/voice-channel/party',
-            'command_docs/voice-channel/kaere',
-            'command_docs/voice-channel/colk',
+            'commands_docs/voice-channel/party',
+            'commands_docs/voice-channel/kaere',
+            'commands_docs/voice-channel/colk',
           ],
         },
         {
-          ミーム: ['command_docs/meme/index', 'command_docs/meme/dousurya'],
+          ミーム: ['commands_docs/meme/index', 'commands_docs/meme/dousurya'],
         },
-        'command_docs/typo',
-        'command_docs/HOJS',
+        'commands_docs/typo',
+        'commands_docs/HOJS',
       ],
     },
   ],
