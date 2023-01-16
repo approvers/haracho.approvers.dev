@@ -34,6 +34,7 @@ module.exports = {
         },
         'commands_docs/typo',
         'commands_docs/HOJS',
+        'commands_docs/help',
       ],
     },
   ],
