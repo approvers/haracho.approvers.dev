@@ -12,7 +12,7 @@
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "typecheck": "tsc --nolimt",
+    "typecheck": "tsc",
     "fix": "yarn format && yarn eslint:fix",
     "check": "prettier --check \"./**/*.{ts,tsx,js,md,mdx}\"",
     "format": "prettier --write \"./**/*.{ts,tsx,js,md,mdx}\"",
