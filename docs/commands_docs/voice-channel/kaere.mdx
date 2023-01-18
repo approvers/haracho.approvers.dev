@@ -1,13 +1,10 @@
-import Link from '@docusaurus/Link';
+import VersionBadge from '../../../src/component/Badge/VersionBadge';
+import WarningBadge from '../../../src/component/Badge/WarningBadge';
 
 # Kaere 一葉
 
-<span class="badge badge--success">v1.0.0</span> <Link
-  className="badge badge--warning"
-  to="/docs/dev_docs/running"
->
-  ffmpeg必須機能
-</Link>
+<VersionBadge children={'v1.0.0'} />,
+<WarningBadge children={'ffmpeg必須機能'} to={'/docs/dev_docs/running'} />
 
 ---
 
