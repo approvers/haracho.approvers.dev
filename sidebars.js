@@ -42,6 +42,7 @@ module.exports = {
         'commands_docs/debug',
         'commands_docs/rolerank',
         'commands_docs/roleinfo',
+        'commands_docs/userinfo',
       ],
     },
   ],
