@@ -43,6 +43,7 @@ module.exports = {
         'commands_docs/rolerank',
         'commands_docs/roleinfo',
         'commands_docs/userinfo',
+        'commands_docs/guildinfo',
       ],
     },
   ],
