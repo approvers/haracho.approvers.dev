@@ -59,6 +59,7 @@ module.exports = {
         'features_docs/emoji-create-log',
         'features_docs/kawaemon',
         'features_docs/vc-diff',
+        'features_docs/typo',
       ],
     },
   ],
