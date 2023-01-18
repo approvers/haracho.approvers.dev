@@ -1,0 +1,29 @@
+import VersionBadge from '../../src/component/VersionBadge';
+
+# ヘルプ
+
+<VersionBadge>v1.0.0</VersionBadge>
+
+## `!help(h)`
+
+ヘルプを表示します。
+
+### ページ送り
+
+<VersionBadge>v1.16.0</VersionBadge>
+
+ヘルプは 2 つのボタンを使ってページ送りすることができます。最後までいくとジャンプします。
+
+:::caution
+
+ページ送りのボタンは一定時間で無効化されます。無効化されても再実行で再表示可能です。
+
+:::
+
+:::caution ページ送りの制限 <VersionBadge children={'v1.31.0'} />
+
+**`v1.32.1` からページ送りができるのは `!help` コマンドを実行したメンバーのみに制限されました**。
+
+コマンド実行者以外がボタンを押してもクライアントにはインタラクションに失敗した趣旨の警告が表示されます。
+
+:::

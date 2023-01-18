@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'OreOreBot2　Documents',
+  title: 'OreOreBot2 Documents',
   tagline: '限界開発鯖民が愛するDiscord Bot',
   url: 'https://haracho.approvers.dev',
   baseUrl: '/',
@@ -31,7 +31,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/approvers/haracho.approvers.dev/tree/main',
+          editUrl: 'https://github.com/approvers/haracho.approvers.dev/edit/main',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -61,6 +61,12 @@ const config = {
             sidebarId: 'dev_docs',
             position: 'left',
             label: 'Development',
+          },
+          {
+            type: 'doc',
+            docId: 'faq/index',
+            position: 'left',
+            label: 'Q&A',
           },
           {
             href: 'https://github.com/approvers/OreOreBot2',

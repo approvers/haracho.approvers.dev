@@ -1,0 +1,19 @@
+import DocCardList from '@theme/DocCardList';
+import { useCurrentSidebarCategory } from '@docusaurus/theme-common';
+
+# Command Reference
+
+はらちょで利用可能なコマンド一覧。
+
+:::tip コマンド説明内の引数の説明について
+
+- `<>` は必須の引数です。
+  - 指定する必要があり、指定しない場合はエラーになります。
+- `[]` は任意の引数です。
+  - 指定する必要はありません。
+  - 指定しない場合はデフォルト値が使用されます。
+    - デフォルト値は `=` または説明で記載されています。
+
+:::
+
+<DocCardList items={useCurrentSidebarCategory().items} />

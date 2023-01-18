@@ -1,0 +1,59 @@
+import VersionBadge from '../../../src/component/VersionBadge';
+
+# タコピー構文
+
+## `!takopi [arg]`
+
+<VersionBadge children={'v1.5.0'} />
+
+### Example
+
+`!takopi 単位`
+
+```
+>> 教員「単位、出して」
+m2en「わ、わかんないっピ.......」
+```
+
+## `!takopi -f [arg]`
+
+<VersionBadge children={'v1.9.2'} /> , 教員と自分の名前を逆にします。
+
+### Example
+
+`!takopi 単位`
+
+```
+>> m2en「単位、出して」
+教員「わ、わかんないっピ.......」
+```
+
+## `!takopi -c [arg1] [arg2]`
+
+<VersionBadge>v1.30.0</VersionBadge>
+
+教員(ポジション)を変更します。
+
+### Example
+
+`!takopi -c ドラえもん 独裁スイッチ`
+
+```
+>> m2en「独裁スイッチ、出して」
+ドラえもん「わ、わかんないっピ.......」
+```
+
+:::tip
+
+`-f`, `-c` は同時に使用することが出来ます。
+
+(順序によってはフラグまたはオプションがそのまま構文に使用されます。`-f`, `-c` の順番での使用が確実です。)
+
+`!takopi -f -c ドラえもん 独裁スイッチ`
+
+```
+>> ドラえもん「独裁スイッチ、出して」
+m2en「わ、わかんないっピ.......」
+```
+
+:::
