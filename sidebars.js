@@ -57,6 +57,7 @@ module.exports = {
         'features_docs/delete-diff',
         'features_docs/edit-diff',
         'features_docs/emoji-create-log',
+        'features_docs/kawaemon',
       ],
     },
   ],
