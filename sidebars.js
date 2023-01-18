@@ -5,7 +5,7 @@ module.exports = {
     'intro',
     {
       type: 'category',
-      label: 'commands',
+      label: 'コマンドリファレンス',
       collapsed: false,
       link: { type: 'doc', id: 'commands_docs/index' },
       items: [
@@ -46,6 +46,13 @@ module.exports = {
         'commands_docs/guildinfo',
         'commands_docs/dice',
       ],
+    },
+    {
+      type: 'category',
+      label: '機能リファレンス',
+      collapsed: false,
+      link: { type: 'doc', id: 'features_docs/index' },
+      items: ['features_docs/bold-italic'],
     },
   ],
   dev_docs: [
