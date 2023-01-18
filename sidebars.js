@@ -39,6 +39,7 @@ module.exports = {
         'commands_docs/stfu',
         'commands_docs/ping',
         'commands_docs/version',
+        'commands_docs/debug',
       ],
     },
   ],
