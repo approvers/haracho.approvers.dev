@@ -38,6 +38,7 @@ module.exports = {
         'commands_docs/kokusei',
         'commands_docs/stfu',
         'commands_docs/ping',
+        'commands_docs/version',
       ],
     },
   ],
