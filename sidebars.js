@@ -37,6 +37,7 @@ module.exports = {
         'commands_docs/help',
         'commands_docs/kokusei',
         'commands_docs/stfu',
+        'commands_docs/ping',
       ],
     },
   ],
