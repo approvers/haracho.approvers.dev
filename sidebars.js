@@ -44,6 +44,7 @@ module.exports = {
         'commands_docs/roleinfo',
         'commands_docs/userinfo',
         'commands_docs/guildinfo',
+        'commands_docs/dice',
       ],
     },
   ],
