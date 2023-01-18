@@ -52,7 +52,12 @@ module.exports = {
       label: '機能リファレンス',
       collapsed: false,
       link: { type: 'doc', id: 'features_docs/index' },
-      items: ['features_docs/bold-italic', 'features_docs/delete-diff', 'features_docs/edit-diff'],
+      items: [
+        'features_docs/bold-italic',
+        'features_docs/delete-diff',
+        'features_docs/edit-diff',
+        'features_docs/emoji-create-log',
+      ],
     },
   ],
   dev_docs: [
