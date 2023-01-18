@@ -36,6 +36,7 @@ module.exports = {
         'commands_docs/HOJS',
         'commands_docs/help',
         'commands_docs/kokusei',
+        'commands_docs/stfu',
       ],
     },
   ],
