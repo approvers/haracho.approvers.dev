@@ -26,6 +26,8 @@ body:
       label: 理由
       description: >
         追加してほしい理由を説明してください。明確にするのが大切です。
+    validations:
+      required: true
   - type: textarea
     id: notes
     attributes:
