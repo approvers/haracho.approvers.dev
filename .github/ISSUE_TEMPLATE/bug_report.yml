@@ -34,12 +34,16 @@ body:
         1.
         2.
         3.
+    validations:
+      required: true
   - type: textarea
     id: possible-solutions
     attributes:
       label: 期待される動作
       description: >
         この不具合が発生していなかったときの期待される動作を説明してください。
+    validations:
+      required: true
   - type: textarea
     id: notes
     attributes:
@@ -50,3 +54,6 @@ body:
     attributes:
       label: ブラウザとバージョン
       description: 使用しているブラウザとそのバージョンを説明します。(Google Chromeの場合は設定から確認できます)
+      render: Text
+    validations:
+      required: true
