@@ -1,14 +1,22 @@
+import { CommandArgs } from '../../../src/component/CommandArgs';
 import VersionBadge from '../../../src/component/VersionBadge';
 
 # 逃げたね構文
 
 > (from Arcaea "Final Verdict")
 
-<VersionBadge>v1.19.0</VersionBadge>
+<CommandArgs
+  versionAvailableFrom="v1.19.0"
+  commandName="nigetane"
+  args={[
+    {
+      name: 'テキスト',
+      about: 'テンプレートに挿入するテキストです。',
+    },
+  ]}
+/>
 
-## `!nigetane [arg]`
-
-### Example
+### 使用例
 
 `!nigetane 数学`
 
