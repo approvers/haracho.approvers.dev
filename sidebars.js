@@ -23,6 +23,7 @@ module.exports = {
             'commands_docs/meme/index',
             'commands_docs/meme/kenjou',
             'commands_docs/meme/koume',
+            'commands_docs/meme/lolicon',
             'commands_docs/meme/moeta',
             'commands_docs/meme/n',
             'commands_docs/meme/nigetane',
