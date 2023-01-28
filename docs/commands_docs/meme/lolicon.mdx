@@ -1,12 +1,20 @@
+import { CommandArgs } from '../../../src/component/CommandArgs';
 import VersionBadge from '../../../src/component/VersionBadge';
 
 # だから僕は〜を辞めた
 
-<VersionBadge>v1.0.0</VersionBadge>
+<CommandArgs
+  versionAvailableFrom="v1.0.0"
+  commandName="lolicon"
+  args={[
+    {
+      name: 'テキスト',
+      about: 'テンプレートに挿入するテキストです。',
+    },
+  ]}
+/>
 
-## `!lolicon [arg]`
-
-### Example
+### 使用例
 
 `!lolicon ロリコン`
 

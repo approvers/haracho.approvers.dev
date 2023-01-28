@@ -1,10 +1,12 @@
+import { CommandArgs } from '../../src/component/CommandArgs';
 import VersionBadge from '../../src/component/VersionBadge';
 
 # 国勢調査
 
-<VersionBadge>v1.0.0</VersionBadge>
-
-### `!kokusei(kokusei-choisa)`
+<CommandArgs
+  versionAvailableFrom="v1.0.0"
+  commandName={['kokusei', 'kokusei-chousa', 'population', 'number', 'zinnkou', 'zinkou'].join('/')}
+/>
 
 限界開発鯖の全メンバー数、ユーザーアカウント(人類)の数、Bot の数、Bot 率を表示します。
 

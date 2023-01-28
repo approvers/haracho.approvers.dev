@@ -1,12 +1,20 @@
+import { CommandArgs } from '../../../src/component/CommandArgs';
 import VersionBadge from '../../../src/component/VersionBadge';
 
 # 〜N った
 
-<VersionBadge>v1.10.0</VersionBadge>
+<CommandArgs
+  versionAvailableFrom="v1.10.0"
+  commandName="n"
+  args={[
+    {
+      name: 'テキスト',
+      about: 'テンプレートに挿入するテキストです。',
+    },
+  ]}
+/>
 
-## `!n [arg]`
-
-### Example
+### 使用例
 
 `!n 課題してないから`
 

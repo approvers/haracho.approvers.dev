@@ -1,14 +1,22 @@
+import { CommandArgs } from '../../src/component/CommandArgs';
 import VersionBadge from '../../src/component/VersionBadge';
 
 # ユーザー情報表示
 
-<VersionBadge>v1.23.0</VersionBadge>
+<CommandArgs
+  versionAvailableFrom="v1.23.0"
+  commandName="userinfo/user"
+  args={[
+    {
+      name: 'ユーザーID',
+      about:
+        '情報を表示したいユーザーのIDです。ユーザーのメンションを入力しないようにしてください。',
+      defaultValue: 'コマンド実行者のID',
+    },
+  ]}
+/>
 
-## `!userinfo(user) [ユーザーID]`
-
-指定したユーザーの情報を表示します。指定しない場合は実行者の情報を表示します。
-
-メンションでは動作しません。
+指定ユーザーについて、以下の情報を表示します。
 
 | 項目                       | 説明                                                                                                    |
 | -------------------------- | ------------------------------------------------------------------------------------------------------- |

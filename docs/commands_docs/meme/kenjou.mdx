@@ -1,12 +1,20 @@
+import { CommandArgs } from '../../../src/component/CommandArgs';
 import VersionBadge from '../../../src/component/VersionBadge';
 
 # 健常者エミュレーター構文
 
-<VersionBadge>v1.27.0</VersionBadge>
+<CommandArgs
+  versionAvailableFrom="v1.27.0"
+  commandName="kenjou"
+  args={[
+    {
+      name: 'テキスト',
+      about: 'テンプレートに挿入するテキストです。',
+    },
+  ]}
+/>
 
-## `!kenjou [arg]`
-
-### Example
+### 使用例
 
 `!kenjou ドキュメントはちゃんと作ったほうがいい`
 

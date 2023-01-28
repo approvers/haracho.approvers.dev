@@ -1,20 +1,28 @@
+import { CommandArgs } from '../../src/component/CommandArgs';
 import VersionBadge from '../../src/component/VersionBadge';
 
 # †HARACHO ONLINE JUDGING SYSTEM†
 
-<VersionBadge>v1.0.0</VersionBadge>
+<CommandArgs
+  versionAvailableFrom="v1.0.0"
+  commandName="jd/judge"
+  args={[
+    {
+      name: 'テスト数',
+      about: '判定のアニメーションに使うテストケースの数です。最大値は `64` です。',
+      defaultValue: '5',
+    },
+    {
+      name: '判定結果',
+      about: 'アニメーション終了後の判定を指定します。',
+      defaultValue: 'AC',
+    },
+    {
+      name: '全失敗',
+      about: '全てのテストケースを失敗させるかどうかを指定します。',
+      defaultValue: 'false',
+    },
+  ]}
+/>
 
 プログラムが適格かどうかを判定するためのオンラインジャッジシステムです。
-
-### `!jd(!judge) [テスト数=5] [判定結果=AC] [全失敗=false]`
-
-- `[テスト数]` : 数値
-  - 判定のアニメーションに使うテストケースの数
-  - デフォルトは `5`
-  - 最大数は `64`
-- `[判定結果]` : 文字列
-  - アニメーション終了後の判定
-  - デフォルトは `AC`
-- `[全失敗]` : Boolean
-  - 全てのテストケースを失敗させるかどうか
-  - デフォルトは `false`
