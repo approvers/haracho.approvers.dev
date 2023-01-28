@@ -1,10 +1,18 @@
+import { CommandArgs } from '../../src/component/CommandArgs';
 import VersionBadge from '../../src/component/VersionBadge';
 
 # デバッガーはらちょ
 
-<VersionBadge>v1.19.0</VersionBadge>
-
-## `!debug <メッセージID>`
+<CommandArgs
+  versionAvailableFrom="v1.19.0"
+  commandName="debug"
+  args={[
+    {
+      name: 'メッセージID',
+      about: 'デバッグ表示するメッセージのID',
+    },
+  ]}
+/>
 
 指定したメッセージをコードブロックとして表示します。
 
@@ -18,7 +26,7 @@ import VersionBadge from '../../src/component/VersionBadge';
 
 :::caution
 
-メッセージ内容をコードブロック上に展開するため、スポイラーを含んだデバックするとスポイラー部分が開示されてしまいます。
+メッセージ内容をコードブロック上に展開するため、スポイラーを含んだメッセージをデバッグするとスポイラー部分が開示されてしまいます。
 
 デバックの際はご注意ください。
 
