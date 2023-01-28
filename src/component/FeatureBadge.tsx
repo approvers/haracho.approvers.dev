@@ -1,10 +1,10 @@
 import React from 'react';
 
-interface Props {
+export interface FeatureProps {
   children: React.ReactNode;
 }
 
-const FeatureBadge: React.FC<Props> = ({ children }) => {
+const FeatureBadge = ({ children }: FeatureProps): JSX.Element => {
   return <span className="badge badge--primary">{children}</span>;
 };
 
