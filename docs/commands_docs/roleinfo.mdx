@@ -1,14 +1,20 @@
+import { CommandArgs } from '../../src/component/CommandArgs';
 import VersionBadge from '../../src/component/VersionBadge';
 
 # ロール情報表示
 
-<VersionBadge>v1.21.0</VersionBadge>
+<CommandArgs
+  versionAvailableFrom="v1.21.0"
+  commandName="roleinfo/role"
+  args={[
+    {
+      name: 'ロールID',
+      about: '情報を表示したいロールのIDです。ロールのメンションを指定しないようにしてください。',
+    },
+  ]}
+/>
 
-## `!roleinfo(role) <ロールID>`
-
-指定したロールの情報を表示します。
-
-メンションでは動作しません。
+指定したロールについて、以下の情報を表示します。
 
 | 項目         | 説明                                                                        |
 | ------------ | --------------------------------------------------------------------------- |
