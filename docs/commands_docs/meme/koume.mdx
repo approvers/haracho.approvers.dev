@@ -1,12 +1,24 @@
+import { CommandArgs } from '../../../src/component/CommandArgs';
 import VersionBadge from '../../../src/component/VersionBadge';
 
 # コウメ太夫構文
 
-<VersionBadge>v1.29.0</VersionBadge>
+<CommandArgs
+  versionAvailableFrom="v1.29.0"
+  commandName="koume"
+  args={[
+    {
+      name: 'テキスト1',
+      about: 'テンプレートに挿入する1つ目のテキストです。',
+    },
+    {
+      name: 'テキスト2',
+      about: 'テンプレートに挿入する2つ目のテキストです。',
+    },
+  ]}
+/>
 
-## `!koume [arg1] [arg2]`
-
-### Example
+### 使用例
 
 `!koume 課題を出そう 通信制限で間に合いません`
 
