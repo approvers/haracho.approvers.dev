@@ -1,12 +1,20 @@
+import { CommandArgs } from '../../../src/component/CommandArgs';
 import VersionBadge from '../../../src/component/VersionBadge';
 
 # 限界みたいな鯖に住んでる〜はどうすりゃいいですか？
 
-<VersionBadge>v1.0.0</VersionBadge>
+<CommandArgs
+  versionAvailableFrom="v1.0.0"
+  commandName="dousurya/dousureba"
+  args={[
+    {
+      name: 'テキスト',
+      about: 'テンプレートに挿入するテキストです。',
+    },
+  ]}
+/>
 
-## `!dousurya(dousureba) [arg]`
-
-### Example
+### 使用例
 
 `!dousurya いっそう`
 
