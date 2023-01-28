@@ -1,10 +1,10 @@
 import React from 'react';
 
-interface VersionProps {
+export interface VersionProps {
   children: React.ReactNode;
 }
 
-const VersionBadge: React.FC<VersionProps> = ({ children }) => {
+const VersionBadge = ({ children }: VersionProps): JSX.Element => {
   return <span className="badge badge--success">{children}</span>;
 };
 
