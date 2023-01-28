@@ -1,10 +1,9 @@
+import { CommandArgs } from '../../src/component/CommandArgs';
 import VersionBadge from '../../src/component/VersionBadge';
 
 # ヘルプ
 
-<VersionBadge>v1.0.0</VersionBadge>
-
-## `!help(h)`
+<CommandArgs versionAvailableFrom="v1.0.0" commandName="help/h" />
 
 ヘルプを表示します。
 
@@ -12,11 +11,11 @@ import VersionBadge from '../../src/component/VersionBadge';
 
 <VersionBadge>v1.16.0</VersionBadge>
 
-ヘルプは 2 つのボタンを使ってページ送りすることができます。最後までいくとジャンプします。
+ヘルプは 2 つのボタンを使ってページ送りすることができます。最初のページから前のページへ送ると最後のページに、最後のページから次のページへ送ると最初のページにジャンプします。
 
 :::caution
 
-ページ送りのボタンは一定時間で無効化されます。無効化されても再実行で再表示可能です。
+ページ送りのボタンは一定時間で無効化されます。無効化された場合はコマンドを再実行してください。
 
 :::
 
