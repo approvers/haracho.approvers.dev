@@ -2332,22 +2332,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@docusaurus/theme-mermaid@npm:^2.2.0":
-  version: 2.2.0
-  resolution: "@docusaurus/theme-mermaid@npm:2.2.0"
+"@docusaurus/theme-mermaid@npm:^2.3.0":
+  version: 2.3.0
+  resolution: "@docusaurus/theme-mermaid@npm:2.3.0"
   dependencies:
-    "@docusaurus/core": 2.2.0
-    "@docusaurus/module-type-aliases": 2.2.0
-    "@docusaurus/theme-common": 2.2.0
-    "@docusaurus/types": 2.2.0
-    "@docusaurus/utils-validation": 2.2.0
+    "@docusaurus/core": 2.3.0
+    "@docusaurus/module-type-aliases": 2.3.0
+    "@docusaurus/theme-common": 2.3.0
+    "@docusaurus/types": 2.3.0
+    "@docusaurus/utils-validation": 2.3.0
     "@mdx-js/react": ^1.6.22
-    mermaid: ^9.1.1
+    mermaid: ^9.2.2
     tslib: ^2.4.0
   peerDependencies:
     react: ^16.8.4 || ^17.0.0
     react-dom: ^16.8.4 || ^17.0.0
-  checksum: cc1fcb93657750debb95eb454a23739a590746d171bae0d56a8856f9178aff6aeaa89894d28e9655affc57198332921af0e029a81e3a025e52ce3c89c706edff
+  checksum: 69f4e5e89bb20ff4a9d4e3bc4867d559c47e90c383954263edd965e6869248e67b2689714a0c7a6b5ad8b29c7c767b6c01b7f3c9877b6f14ac2bd8fb47ab7883
   languageName: node
   linkType: hard
 
@@ -7270,7 +7270,7 @@ __metadata:
     "@docusaurus/theme-classic": ^2.2.0
     "@docusaurus/theme-common": ^2.2.0
     "@docusaurus/theme-live-codeblock": ^2.3.0
-    "@docusaurus/theme-mermaid": ^2.2.0
+    "@docusaurus/theme-mermaid": ^2.3.0
     "@mdx-js/react": ^1.6.22
     "@tsconfig/docusaurus": ^1.0.5
     "@types/react": ^18.0.26
@@ -8936,7 +8936,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mermaid@npm:^9.1.1":
+"mermaid@npm:^9.2.2":
   version: 9.3.0
   resolution: "mermaid@npm:9.3.0"
   dependencies:
