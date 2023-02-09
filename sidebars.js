@@ -84,4 +84,14 @@ module.exports = {
     'dev_docs/emoji-seq',
     'dev_docs/meme',
   ],
+  changelog: [
+    {
+      type: 'category',
+      label: 'バージョン1',
+      collapsed: false,
+      items: [
+        'changelog/v1/v1.37.0',
+      ],
+    },
+  ]
 };
