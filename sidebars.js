@@ -11,9 +11,9 @@ module.exports = {
       items: [
         {
           音楽機能: [
-            'commands/voice-channel/party',
-            'commands/voice-channel/kaere',
-            'commands/voice-channel/colk',
+            'commands/voice/party',
+            'commands/voice/kaere',
+            'commands/voice/colk',
           ],
         },
         {
@@ -56,33 +56,33 @@ module.exports = {
       type: 'category',
       label: '機能リファレンス',
       collapsed: false,
-      link: { type: 'doc', id: 'features_docs/index' },
+      link: { type: 'doc', id: 'features/index' },
       items: [
-        'features_docs/bold-italic',
-        'features_docs/delete-diff',
-        'features_docs/edit-diff',
-        'features_docs/emoji-create-log',
-        'features_docs/kawaemon',
-        'features_docs/vc-diff',
-        'features_docs/typo',
+        'features/bold-italic',
+        'features/delete-diff',
+        'features/edit-diff',
+        'features/emoji-create-log',
+        'features/kawaemon',
+        'features/vc-diff',
+        'features/typo',
       ],
     },
   ],
   dev_docs: [
-    'dev_docs/index',
+    'development/index',
     {
       type: 'category',
       label: '実行',
       collapsed: false,
       items: [
-        'dev_docs/running/index',
-        'dev_docs/running/local',
-        'dev_docs/running/docker-useImage',
-        'dev_docs/running/docker-useCompose',
+        'development/running/index',
+        'development/running/local',
+        'development/running/docker-useImage',
+        'development/running/docker-useCompose',
       ],
     },
-    'dev_docs/emoji-seq',
-    'dev_docs/meme',
+    'development/emoji-seq',
+    'development/meme',
   ],
   changelog: [
     {
