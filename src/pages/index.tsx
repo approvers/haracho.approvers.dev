@@ -22,7 +22,7 @@ function HomepageHeader() {
           <Link className={clsx(buttonInput, styles.buttonsItem)} to="/docs/intro">
             ドキュメント
           </Link>
-          <Link className={clsx(buttonInput, styles.buttonsItem)} to="/docs/dev_docs">
+          <Link className={clsx(buttonInput, styles.buttonsItem)} to="/docs/development">
             開発ガイド
           </Link>
         </div>
