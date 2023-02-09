@@ -1,16 +1,21 @@
-import VersionBadge from '../../../src/component/VersionBadge';
-import WarningBadge from '../../../src/component/WarningBadge';
+import { CommandArgs } from "../../../src/component/CommandArgs";
 
 # Party 一葉
 
-<VersionBadge>v1.0.0</VersionBadge>
-<WarningBadge to={'/docs/development/running'}>ffmpeg必須機能</WarningBadge>
+<CommandArgs
+    versionAvailableFrom="v1.0.0"
+    commandName="kaere"
+/>
 
 ---
 
-あなたのボイスチャンネルをパーティー会場に！
+あなたのボイスチャンネルをパーティー会場に！数なしで即時発動
 
-VC 内の人類に押しかけて Party を開くよ。
+:::warning 機能制限
+
+この機能には FFmpeg が必要です。
+
+:::
 
 :::tip
 
@@ -20,9 +25,7 @@ VC 内の人類に押しかけて Party を開くよ。
 
 :::
 
-### `!party`
-
-パーティーをすぐに始めます。
+----
 
 ### `!party status`
 

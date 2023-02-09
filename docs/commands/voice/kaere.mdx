@@ -1,14 +1,18 @@
-import VersionBadge from '../../../src/component/VersionBadge';
-import WarningBadge from '../../../src/component/WarningBadge';
+import { CommandArgs } from '../../../src/component/CommandArgs';
 
 # Kaere 一葉
 
-<VersionBadge>v1.0.0</VersionBadge>
-<WarningBadge to={'/docs/development/running'}>ffmpeg必須機能</WarningBadge>
+<CommandArgs versionAvailableFrom="v1.1.0" commandName="kaere" />
 
 ---
 
-VC 内の人類に就寝を促すよ。
+VC 内の人類に就寝を促します。引数なしで即時発動
+
+:::warning 機能制限
+
+この機能には FFmpeg が必要です。
+
+:::
 
 :::tip
 
@@ -18,9 +22,7 @@ VC 内の人類に就寝を促すよ。
 
 :::
 
-### `!kaere`
-
-就寝推奨を今すぐ始めます。
+---
 
 ### `!kaere bed status`
 
