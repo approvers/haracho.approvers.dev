@@ -63,10 +63,10 @@ const config = {
             label: 'Development',
           },
           {
-            type: 'doc',
-            docId: 'faq/index',
+            type: 'docSidebar',
+            sidebarId: 'changelog',
             position: 'left',
-            label: 'Q&A',
+            label: 'Changelogs',
           },
           {
             href: 'https://github.com/approvers/OreOreBot2',
