@@ -49,6 +49,7 @@ module.exports = {
         'commands_docs/userinfo',
         'commands_docs/guildinfo',
         'commands_docs/dice',
+        'commands_docs/channelinfo',
       ],
     },
     {
