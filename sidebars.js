@@ -10,11 +10,7 @@ module.exports = {
       link: { type: 'doc', id: 'commands/index' },
       items: [
         {
-          音楽機能: [
-            'commands/voice/party',
-            'commands/voice/kaere',
-            'commands/voice/colk',
-          ],
+          音楽機能: ['commands/voice/party', 'commands/voice/kaere', 'commands/voice/colk'],
         },
         {
           ミーム: [
@@ -89,9 +85,7 @@ module.exports = {
       type: 'category',
       label: 'バージョン1',
       collapsed: false,
-      items: [
-        'changelog/v1/v1.37.0',
-      ],
+      items: ['changelog/v1/v1.37.0'],
     },
-  ]
+  ],
 };
