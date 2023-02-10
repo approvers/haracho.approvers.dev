@@ -1,6 +1,6 @@
 name: ドキュメント
 description: ドキュメントに関するIssueを提出します。
-labels: ["✏️Content"]
+labels: ["C-context"]
 body:
   - type: checkboxes
     id: terms
