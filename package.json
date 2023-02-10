@@ -2,7 +2,7 @@
   "name": "haracho.approvers.dev",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "ssh://git@github.com/approvers/haracho.approvers.dev.git",
+  "repository": "https://github.com/approvers/haracho.approvers.dev",
   "author": "approvers <info@approvers.dev>",
   "license": "MIT",
   "private": true,
