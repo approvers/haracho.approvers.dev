@@ -8,28 +8,29 @@
 
 [Next.js](https://nextjs.org/) + [Nextra](https://nextra.site/) で作成され、 [Cloudflare Pages](https://pages.cloudflare.com/) でデプロイされています。
 
-## Usage
+## Getting Started
 
-### ビルド
+### Prerequisites
 
-```shell
-yarn build
-```
+- [Node.js](https://nodejs.org/) v16.x or later
+- [Yarn](https://yarnpkg.com/) v3
 
-SSG でのビルドではエクスポートも必要です、
+---
 
-```shell
-yarn export
-```
+1. このリポジトリをクローンします。
+   ([approvers](https://github.com/approvers) のメンバーではない場合は最初に Fork してください)
 
-### 起動
+   ```shell
+   git clone https://github.com/approvers/haracho.approvers.dev.git
+   ```
 
-```shell
-yarn start
-```
+2. 依存関係をインストールします。
 
-### 開発サーバーで起動
+   ```shell
+   yarn
+   ```
 
-```shell
-yarn dev
-```
+3. 開発サーバーを起動します。
+   ```shell
+   yarn dev
+   ```
