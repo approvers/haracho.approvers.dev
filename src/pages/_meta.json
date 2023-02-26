@@ -1,7 +1,13 @@
 {
   "index": "ようこそ",
-  "commands": "コマンドリファレンス",
-  "features": "機能リファレンス",
+  "references": {
+    "title": "リファレンス",
+    "type": "page"
+  },
+  "development": {
+    "title": "開発ガイド",
+    "type": "page"
+  },
   "repo": {
     "title": "OreOreBot2 レポジトリ",
     "type": "page",
