@@ -1,6 +1,6 @@
 name: バグ報告
 description: サイト内での不具合を報告します。
-labels: ["🐛bug"]
+labels: ["C-bug"]
 body:
   - type: markdown
     attributes:
