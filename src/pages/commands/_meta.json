@@ -12,5 +12,8 @@
   "stfu": "治安統率機構",
   "typo": "今日の Typo",
   "user-info": "ユーザー情報表示",
-  "version": "バージョン表示"
+  "version": "バージョン表示",
+  "meme": {
+    "title": "ミーム"
+  }
 }
