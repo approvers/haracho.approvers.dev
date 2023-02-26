@@ -537,7 +537,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:>=16":
+"@types/react@npm:18.0.28, @types/react@npm:>=16":
   version: 18.0.28
   resolution: "@types/react@npm:18.0.28"
   dependencies:
@@ -2244,6 +2244,7 @@ __metadata:
   resolution: "haracho.approvers.dev@workspace:."
   dependencies:
     "@types/node": 18.13.0
+    "@types/react": 18.0.28
     "@typescript-eslint/eslint-plugin": ^5.51.0
     "@typescript-eslint/parser": ^5.51.0
     eslint: 8.33.0
