@@ -1,0 +1,25 @@
+import { Callout } from 'nextra-theme-docs';
+
+import { FeatureBadge } from '../../molecules/feature-badge';
+import { VersionBadge } from '../../molecules/version-badge';
+
+# 編集 Diff
+
+<FeatureBadge>ログ</FeatureBadge>,<VersionBadge>v1.0.0</VersionBadge>
+
+---
+
+メッセージを編集すると編集差分を晒し上げます。
+
+<Callout type="info">
+  編集 Diff
+  は一定時間で削除されます。削除せず取っておきたい場合はリアクションを送信することで阻止できます。
+</Callout>
+
+<Callout type="warning">
+
+編集したメッセージにスポイラーが含まれている場合は編集時に開示されます。
+
+編集する際は覚悟を決めてください。
+
+</Callout>
