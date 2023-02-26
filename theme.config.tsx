@@ -4,5 +4,10 @@ export default {
   logo: <span>OreOreBot2 Documents</span>,
   project: {
     link: pkg.repository
+  },
+  useNextSeoProps() {
+    return {
+      titleTemplate: '%s - OreOreBot2 Documents'
+    };
   }
 };
