@@ -1,3 +1,5 @@
+import { Callout } from 'nextra-theme-docs';
+
 import { FeatureBadge } from '/src/molecules/feature-badge';
 import { VersionBadge } from '/src/molecules/version-badge';
 
@@ -7,4 +9,9 @@ import { VersionBadge } from '/src/molecules/version-badge';
 
 ---
 
-VC に接続したメンバーがいたらログを送信します。
+VC に接続したメンバーがいたら `#無法地帯` にログを送信します。
+
+<Callout type="warning" emoji="⚠️">
+  はらちょに **チャンネル閲覧権限** が付与されていないチャンネルに関するログは送信されません。
+  ログを受け取りたいチャンネルには権限を与えるようにしてください。
+</Callout>
